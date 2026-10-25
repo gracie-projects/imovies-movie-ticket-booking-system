@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071a0e"/><stop offset="1" stop-color="#14532d"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#86efac" stop-opacity="0.55"/><stop offset="1" stop-color="#86efac" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.9"/></linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <circle cx="300" cy="330" r="120" fill="url(#glow)"/><polygon points="-20,720 25,420 70,720" fill="#052e16" stroke="#86efac" stroke-opacity="0.35"/><polygon points="55,720 100,367 145,720" fill="#052e16" stroke="#86efac" stroke-opacity="0.35"/><polygon points="130,720 175,314 220,720" fill="#052e16" stroke="#86efac" stroke-opacity="0.35"/><polygon points="205,720 250,261 295,720" fill="#052e16" stroke="#86efac" stroke-opacity="0.35"/><polygon points="280,720 325,368 370,720" fill="#052e16" stroke="#86efac" stroke-opacity="0.35"/><polygon points="355,720 400,315 445,720" fill="#052e16" stroke="#86efac" stroke-opacity="0.35"/><polygon points="430,720 475,262 520,720" fill="#052e16" stroke="#86efac" stroke-opacity="0.35"/><polygon points="505,720 550,369 595,720" fill="#052e16" stroke="#86efac" stroke-opacity="0.35"/><polygon points="580,720 625,316 670,720" fill="#052e16" stroke="#86efac" stroke-opacity="0.35"/>
+  <rect width="600" height="900" fill="url(#fade)"/>
+  <text x="300" y="720" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#fff" letter-spacing="4">KAADU</text>
+  <text x="300" y="775" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="42" fill="#86efac" letter-spacing="4">ECHOES OF THE FOREST</text>
+  <text x="300" y="850" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#ddd" letter-spacing="5">THE FOREST REMEMBERS</text>
+  <text x="300" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff" fill-opacity="0.6" letter-spacing="8">AN IMOVIES ORIGINAL</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1205"/><stop offset="1" stop-color="#4a3410"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#f5c518" stop-opacity="0.55"/><stop offset="1" stop-color="#f5c518" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.9"/></linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <circle cx="300" cy="400" r="190" fill="none" stroke="#f5c518" stroke-width="10"/><circle cx="300" cy="400" r="160" fill="none" stroke="#f5c518" stroke-opacity="0.4" stroke-width="2"/>
+        <line x1="300" y1="250" x2="300" y2="225" stroke="#f5c518" stroke-width="6"/><line x1="375" y1="270.0961894323342" x2="387.5" y2="248.44555433772322" stroke="#f5c518" stroke-width="6"/><line x1="429.9038105676658" y1="325" x2="451.55444566227675" y2="312.5" stroke="#f5c518" stroke-width="6"/><line x1="450" y1="400" x2="475" y2="400" stroke="#f5c518" stroke-width="6"/><line x1="429.9038105676658" y1="475" x2="451.55444566227675" y2="487.49999999999994" stroke="#f5c518" stroke-width="6"/><line x1="375" y1="529.9038105676658" x2="387.5" y2="551.5544456622767" stroke="#f5c518" stroke-width="6"/><line x1="300" y1="550" x2="300" y2="575" stroke="#f5c518" stroke-width="6"/><line x1="225.00000000000006" y1="529.9038105676658" x2="212.50000000000006" y2="551.5544456622767" stroke="#f5c518" stroke-width="6"/><line x1="170.09618943233423" y1="475.00000000000006" x2="148.44555433772325" y2="487.50000000000006" stroke="#f5c518" stroke-width="6"/><line x1="150" y1="400" x2="125" y2="400.00000000000006" stroke="#f5c518" stroke-width="6"/><line x1="170.0961894323342" y1="325" x2="148.44555433772325" y2="312.5" stroke="#f5c518" stroke-width="6"/><line x1="224.99999999999994" y1="270.09618943233426" x2="212.49999999999994" y2="248.44555433772328" stroke="#f5c518" stroke-width="6"/>
+        <line x1="300" y1="400" x2="300" y2="280" stroke="#fff" stroke-width="8" stroke-linecap="round"/><line x1="300" y1="400" x2="390" y2="440" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="300" cy="400" r="12" fill="#f5c518"/>
+  <rect width="600" height="900" fill="url(#fade)"/>
+  <text x="300" y="700" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="52" fill="#fff" letter-spacing="4">THE CLOCKMAKER&#39;S</text>
+  <text x="300" y="795" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#f5c518" letter-spacing="4">HEIST</text>
+  <text x="300" y="850" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#ddd" letter-spacing="5">EVERY SECOND IS PART OF THE PLAN</text>
+  <text x="300" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff" fill-opacity="0.6" letter-spacing="8">AN IMOVIES ORIGINAL</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f0c29"/><stop offset="1" stop-color="#302b63"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#ff00cc" stop-opacity="0.55"/><stop offset="1" stop-color="#ff00cc" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.9"/></linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <circle cx="300" cy="360" r="150" fill="url(#glow)"/><rect x="-10" y="560" width="30" height="160" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="42" y="489" width="67" height="231" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="94" y="418" width="64" height="302" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="146" y="347" width="61" height="373" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="198" y="536" width="58" height="184" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="250" y="465" width="55" height="255" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="302" y="394" width="52" height="326" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="354" y="323" width="49" height="397" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="406" y="512" width="46" height="208" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="458" y="441" width="43" height="279" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="510" y="370" width="40" height="350" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><rect x="562" y="559" width="37" height="161" fill="#0b0920" stroke="#ff00cc" stroke-opacity="0.5"/><line x1="0" y1="560" x2="600" y2="560" stroke="#ff00cc" stroke-width="2" opacity="0.6"/>
+  <rect width="600" height="900" fill="url(#fade)"/>
+  <text x="300" y="700" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#fff" letter-spacing="4">NEON</text>
+  <text x="300" y="795" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#ff00cc" letter-spacing="4">HORIZON</text>
+  <text x="300" y="850" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#ddd" letter-spacing="5">THE FUTURE HAS A PULSE</text>
+  <text x="300" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff" fill-opacity="0.6" letter-spacing="8">AN IMOVIES ORIGINAL</text>
+</svg>

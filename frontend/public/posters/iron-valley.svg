@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1c1c"/><stop offset="1" stop-color="#5a2a0c"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#ff7b00" stop-opacity="0.55"/><stop offset="1" stop-color="#ff7b00" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.9"/></linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <circle cx="300" cy="300" r="90" fill="#ff7b00" opacity="0.8"/><polygon points="0,720 160,380 300,560 440,330 600,720" fill="#2b1a10"/><polygon points="0,720 120,520 260,640 420,480 600,720" fill="#140c07"/>
+  <rect width="600" height="900" fill="url(#fade)"/>
+  <text x="300" y="700" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#fff" letter-spacing="4">IRON</text>
+  <text x="300" y="795" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#ff7b00" letter-spacing="4">VALLEY</text>
+  <text x="300" y="850" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#ddd" letter-spacing="5">ONE TOWN. ONE STAND.</text>
+  <text x="300" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff" fill-opacity="0.6" letter-spacing="8">AN IMOVIES ORIGINAL</text>
+</svg>

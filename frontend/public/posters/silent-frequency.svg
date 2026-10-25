@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050505"/><stop offset="1" stop-color="#1a0b0b"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#e50914" stop-opacity="0.55"/><stop offset="1" stop-color="#e50914" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.9"/></linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <path d="M0 400 L10 420 L30 343 L50 494 L70 269 L90 448 L110 315 L130 522 L150 361 L170 476 L190 287 L210 430 L230 333 L250 504 L270 379 L290 458 L310 305 L330 532 L350 351 L370 486 L390 277 L410 440 L430 323 L450 514 L470 369 L490 468 L510 295 L530 422 L550 341 L570 496 L590 267 L600 400" fill="none" stroke="#e50914" stroke-width="4"/><circle cx="300" cy="400" r="200" fill="none" stroke="#e50914" stroke-opacity="0.2" stroke-width="2"/>
+  <rect width="600" height="900" fill="url(#fade)"/>
+  <text x="300" y="700" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#fff" letter-spacing="4">SILENT</text>
+  <text x="300" y="795" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#e50914" letter-spacing="4">FREQUENCY</text>
+  <text x="300" y="850" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#ddd" letter-spacing="5">DO NOT ANSWER THE CALL</text>
+  <text x="300" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff" fill-opacity="0.6" letter-spacing="8">AN IMOVIES ORIGINAL</text>
+</svg>

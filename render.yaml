@@ -1,0 +1,37 @@
+# Render Blueprint - deploys IMovies as ONE web service (Express API + built React app).
+# Usage: Render dashboard -> New -> Blueprint -> select this repository.
+# You will be asked for the secret values marked "sync: false".
+services:
+  - type: web
+    name: imovies
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health/ready
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 22
+      - key: SERVE_FRONTEND
+        value: "true"
+      - key: TRUST_PROXY
+        value: "1"
+      - key: SEED_IF_EMPTY
+        value: "true" # loads demo data on the first start only; existing bookings are never wiped
+      - key: SCHEDULE_AUTOFILL
+        value: "true" # keeps the demo stocked with showtimes for the next 5 days
+      - key: COOKIE_SAMESITE
+        value: lax
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGODB_URI
+        sync: false # MongoDB Atlas connection string
+      - key: CLIENT_ORIGIN
+        sync: false # e.g. https://imovies.onrender.com
+      - key: SEED_ADMIN_PASSWORD
+        sync: false
+      - key: SEED_DEMO_PASSWORD
+        sync: false

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Playwright / test artifacts (the final demo video is copied to docs/demo/)
+e2e/output/
+e2e/test-results/
+e2e/playwright-report/
+playwright/.cache/
+
+# Local editor / OS / tool files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/

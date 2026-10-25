@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a0a3d"/><stop offset="1" stop-color="#ff6b35"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#ffe66d" stop-opacity="0.55"/><stop offset="1" stop-color="#ffe66d" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.9"/></linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <circle cx="300" cy="380" r="220" fill="url(#glow)"/><rect x="255" y="250" width="90" height="150" rx="45" fill="#222" stroke="#ffe66d" stroke-width="6"/>
+        <path d="M225 360 Q225 470 300 470 Q375 470 375 360" fill="none" stroke="#ffe66d" stroke-width="8"/><line x1="300" y1="470" x2="300" y2="600" stroke="#ffe66d" stroke-width="8"/><line x1="240" y1="600" x2="360" y2="600" stroke="#ffe66d" stroke-width="8"/>
+  <rect width="600" height="900" fill="url(#fade)"/>
+  <text x="300" y="700" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#fff" letter-spacing="4">LAUGH</text>
+  <text x="300" y="795" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#ffe66d" letter-spacing="4">TRACK</text>
+  <text x="300" y="850" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#ddd" letter-spacing="5">LIVE. UNSCRIPTED. OUT OF CONTROL.</text>
+  <text x="300" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff" fill-opacity="0.6" letter-spacing="8">AN IMOVIES ORIGINAL</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1b3e"/><stop offset="1" stop-color="#3b2c6b"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#ffb347" stop-opacity="0.55"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.9"/></linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)"/>
+  <g transform="translate(150 300) scale(1)"><ellipse cx="0" cy="0" rx="45" ry="60" fill="#ffb347" opacity="0.9"/><ellipse cx="0" cy="0" rx="70" ry="85" fill="#ffb347" opacity="0.15"/><rect x="-20" y="-68" width="40" height="10" fill="#7a3e00"/><rect x="-20" y="58" width="40" height="10" fill="#7a3e00"/></g><g transform="translate(320 220) scale(1.3)"><ellipse cx="0" cy="0" rx="45" ry="60" fill="#ffb347" opacity="0.9"/><ellipse cx="0" cy="0" rx="70" ry="85" fill="#ffb347" opacity="0.15"/><rect x="-20" y="-68" width="40" height="10" fill="#7a3e00"/><rect x="-20" y="58" width="40" height="10" fill="#7a3e00"/></g><g transform="translate(460 360) scale(0.9)"><ellipse cx="0" cy="0" rx="45" ry="60" fill="#ffb347" opacity="0.9"/><ellipse cx="0" cy="0" rx="70" ry="85" fill="#ffb347" opacity="0.15"/><rect x="-20" y="-68" width="40" height="10" fill="#7a3e00"/><rect x="-20" y="58" width="40" height="10" fill="#7a3e00"/></g><g transform="translate(240 470) scale(0.8)"><ellipse cx="0" cy="0" rx="45" ry="60" fill="#ffb347" opacity="0.9"/><ellipse cx="0" cy="0" rx="70" ry="85" fill="#ffb347" opacity="0.15"/><rect x="-20" y="-68" width="40" height="10" fill="#7a3e00"/><rect x="-20" y="58" width="40" height="10" fill="#7a3e00"/></g><g transform="translate(420 540) scale(0.7)"><ellipse cx="0" cy="0" rx="45" ry="60" fill="#ffb347" opacity="0.9"/><ellipse cx="0" cy="0" rx="70" ry="85" fill="#ffb347" opacity="0.15"/><rect x="-20" y="-68" width="40" height="10" fill="#7a3e00"/><rect x="-20" y="58" width="40" height="10" fill="#7a3e00"/></g>
+  <rect width="600" height="900" fill="url(#fade)"/>
+  <text x="300" y="700" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#fff" letter-spacing="4">PAPER</text>
+  <text x="300" y="795" text-anchor="middle" font-family="Impact, 'Bebas Neue', 'Arial Narrow', sans-serif" font-size="96" fill="#ffb347" letter-spacing="4">LANTERNS</text>
+  <text x="300" y="850" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#ddd" letter-spacing="5">LIGHT THE WAY HOME</text>
+  <text x="300" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fff" fill-opacity="0.6" letter-spacing="8">AN IMOVIES ORIGINAL</text>
+</svg>
