@@ -11,6 +11,7 @@
 | **Project demo video** | [docs/demo/IMovies_Project_Demo.webm](docs/demo/IMovies_Project_Demo.webm) (about 1.5 minutes, recorded automatically with Playwright from the running app) |
 | **Live demo** | Not deployed yet. See [Deployment](#16-deployment) |
 | **Demo customer** | `demo@imovies.test` / `Demo@12345` |
+| **SkillWallet task docs** | [docs/skillwallet/](docs/skillwallet/README.md): all 19 tasks (architecture, ER diagram, setup, backend, database, frontend, execution) |
 | **Demo admin (local only)** | `admin@imovies.test` / `Admin@12345` |
 
 ![IMovies home page](screenshots/01-home.png)
@@ -170,13 +171,9 @@ erDiagram
   SCREEN ||--o{ SHOWTIME : hosts
   SHOWTIME ||--o{ BOOKING : "is booked by"
 
-  USER { string name; string email UK; string passwordHash; string role "user|admin"; string phone }
-  MOVIE { string title; string slug UK; string[] genres; string[] languages; number durationMins; string certificate; number rating; string director; string[] cast; date releaseDate; string status "now_showing|coming_soon|archived" }
-  THEATER { string name UK; string city; string address; string[] amenities; bool isActive }
-  SCREEN { ObjectId theater; string name; number rows; number seatsPerRow; string[] premiumRows; number[] aisleAfter }
-  SHOWTIME { ObjectId movie; ObjectId theater; ObjectId screen; date startTime; date endTime; string language; string format; object prices; string[] bookedSeats; string status }
-  BOOKING { string reference UK; ObjectId user; ObjectId showtime; object[] seats; number subtotal; number convenienceFee; number total; string paymentMethod; string status; string idempotencyKey }
 ```
+
+The full ER diagram with every field is in [docs/skillwallet/01-project-architecture.md](docs/skillwallet/01-project-architecture.md#2-er-diagram).
 
 **Indexes:** unique `email`, `slug`, `reference`, `(theater, name)` for screens, and `(user, idempotencyKey)` for bookings. Query indexes cover `(movie, startTime)`, `(screen, startTime)`, `genres`, `languages`, `status` and `(user, showStartTime)`.
 
