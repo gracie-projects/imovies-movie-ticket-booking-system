@@ -3,6 +3,7 @@ import { fileURLToPath } from 'node:url';
 import mongoose from 'mongoose';
 import { env } from './env.js';
 import { logger } from '../utils/logger.js';
+import { describeMongoUri } from './uriCheck.js';
 
 const BACKEND_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 let memoryServer = null;
@@ -24,7 +25,15 @@ export async function connectDB(uri = env.MONGODB_URI) {
   }
 
   mongoose.set('strictQuery', true);
-  await mongoose.connect(target, { serverSelectionTimeoutMS: 10000 });
+  try {
+    await mongoose.connect(target, { serverSelectionTimeoutMS: 10000 });
+  } catch (err) {
+    if (uri !== 'memory') {
+      // Safe summary of the connection string (never includes the password itself)
+      logger.error({ connection: describeMongoUri(uri), reason: err.message }, 'Could not connect to MongoDB');
+    }
+    throw err;
+  }
   await Promise.all(Object.values(mongoose.models).map((model) => model.syncIndexes()));
   logger.info({ db: mongoose.connection.name }, 'MongoDB connected');
   return mongoose.connection;
